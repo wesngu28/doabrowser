@@ -12,7 +12,7 @@ export function CharacterGrid() {
           <A href={`/character/${character.name.replace(' ', '_')}`}>
             <img
             class="h-[150px] lg:h-[200px] m-auto"
-            src={`../../img/${character.imgLink}`}
+            src={`/img/${character.imgLink}`}
             />
           </A>
         )}

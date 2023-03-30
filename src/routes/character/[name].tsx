@@ -112,7 +112,7 @@ export default function CharacterPage() {
           setAbsoluter("");
           popout!.classList.toggle("hidden");
         }}
-        class="hidden absolute w-screen h-screen bg-[#000000e1]"
+        class="hidden fixed w-screen h-screen bg-[#000000e1] inset-0"
         ref={popout!}>
         <img class="inset-0 m-auto absolute max-h-[75vh] opacity-100" src={absoluter()} />
       </div>

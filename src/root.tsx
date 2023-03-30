@@ -20,8 +20,9 @@ export default function Root() {
         <Title>DOA3Browser</Title>
         <Meta charset="utf-8" />
         <Meta name="viewport" content="width=device-width, initial-scale=1" />
+        <Meta name="description" content="Learning Solid Start with DOA3 Characters" />
       </Head>
-      <Body class="bg-gray-900 overflow-x-hidden lg:overflow-hidden">
+      <Body class="bg-gray-900 overflow-x-hidden min-h-screen">
         <Suspense>
           <ErrorBoundary>
             <Routes>
